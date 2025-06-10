@@ -7,32 +7,40 @@
       letter-spacing: 10px;
       word-spacing: 10px;
       text-shadow: 2px 2px 5px purple;
-      font-size: 70px; 
+      font-size: 70px;
     }
     p {
       color: red;
-      font-size: 30px; 
+      font-size: 30px;
     }
-    table, tr {
+    table {
       border: 1px solid black;
       border-collapse: collapse;
       color: blue;
-      font-size: 30px; 
+      font-size: 30px;
       background-color: pink;
+      width: 100%; /* Ajustando a largura da tabela */
+    }
+    td, th {
+      border-left: 1px solid black; /* Adiciona borda esquerda para cada célula */
+      border-top: 1px solid black; /* Adiciona borda superior para cada célula */
+      padding: 10px; /* Adiciona espaçamento interno nas células */
+    }
+    td:first-child, th:first-child {
+      border-left: none; /* Remove a borda esquerda da primeira coluna */
     }
     a {
-      color: blue; 
+      color: red;
     }
     a:hover {
       color: lightblue;
       font-style: italic;
     }
     p:hover {
-      color: pink;
+      color: lightblue;
       font-style: italic;
     }
-    
-    td:hover {
+    table:hover {
       background-color: white;
     }
   </style>
