@@ -1,0 +1,107 @@
+<html>
+<head>
+  <title>LITTLE TRUQUEIROS</title>
+  <style>
+    body {
+  background-color: #808080; /* Cor cinza */
+}
+  @media screen and (max-width: 600px) {
+  body {
+    background-color: #800080; /* Cor roxa */
+  }
+}
+
+    .menu{
+      display:flex;
+      justify-content: space-around;
+      flex-direction: flex-start;
+      background-color:rgba(0,0,0,0.2);
+      margin: 10px 0px 0px 0px;
+      text-align: center;
+      flex-wrap: wrap;
+    }
+    h1 {
+      color: blue;
+      letter-spacing: 10px;
+      word-spacing: 10px;
+      text-shadow: 2px 2px 5px purple;
+      font-size: 70px;
+    }
+    p {
+      color: red;
+      font-size: 30px;
+    }
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      color: black;
+      font-size: 30px;
+      background-color: blue;
+      width: 10%;
+    }
+    td, th {
+      border-left: 1px solid black;
+      border-top: 1px solid black;
+      padding: 10px;
+    }
+ 
+    a {
+      color: blue;
+    }
+    a:hover {
+      color: lightblue;
+      font-style: italic;
+    }
+    p:hover {
+      color: pink;
+    }
+    td:hover {
+      background-color: gray;
+    }
+  </style>
+</head>
+<body>
+<div class="menu">
+</div>
+  <header>
+   <div class="menu">
+
+      <a href="https://shellshock.io/</a>
+   
+      <a href="https://files.minecraftforge.net/net/minecraftforge/forge/</a>
+   
+      <a href="https://pointerpointer.com/</a>
+
+   </div>
+  </header>
+
+  <h1>LAMINE YAMAL GOAT</h1>
+ 
+
+<img src="https://revistadofato.com.br/wp-content/uploads/2025/01/neymar-.webp"  width="100%" height="100%" alt="Eae piazada, Taborda, Samuel e Lukete mandam um beijo">
+
+  <table>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+  </table>
+  <pTruco dos guri</p>
+  <p>tomtom</p>
+  <p>rsrsrsr</p>
+  <p>lc100midia</p>
+  <p>amigazao</p>
+  <p>vsffffffff</p>
+
+  <br />
+<center>
+    <footer>vsf geral</footer>
+</center>
+</body>
+</html>
