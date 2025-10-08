@@ -45,7 +45,33 @@
     td:hover {
       background-color: gray;
     }
-  </style>
+ 
+.icon {
+  display: inline-block;
+  animation: like 2s 3s infinie;
+  font-size: 60px;
+ }
+@keyframes like {
+0% {
+  tranform: rotate( 0deg ) scale( 1 );
+ }
+10% {
+   tranform: rotate( 15deg ) sacle( 1 )
+ }
+50% {
+   tranform: rotate( -180deg ) scale( 1 )
+ }
+100% {
+    tranasform: rotate(-360deg ) scale( 1 )
+ }
+img {
+  animation-name: doabarrelroll;
+  animation-duration: 20s;
+  animation-direction: alternate;
+  animation-interation-count:infinite;
+}
+
+ </style>
 </head>
 <body>
 <div class="TRUCO>
